@@ -205,11 +205,10 @@ main {
 
 .together-img {
   position: absolute;
-  width: 270px;
-  height: 37px;
-  margin-top: 170px;
-  margin-left: 850px;
-  text-align: right;
+  width: 309px;
+  height: 21px;
+  margin-top: -85px;
+  margin-left: 213px;
   z-index: 0;
 }
 .together p {
@@ -412,6 +411,10 @@ main {
 }
 .your-work-img {
   position: absolute;
+  margin-top: -80px;
+  margin-left: 615px;
+  width: 250px;
+  /* height: 30px; */
 }
 .your-work h1 {
   color: #ffffff;
@@ -421,4 +424,41 @@ main {
 .your-work p {
   color: #ffffff;
   font-size: 20px;
+}
+/* --------------------------------------------------------------- */
+.data {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding: 140px 40px;
+}
+
+.button-your-data {
+  background-color: #4f9cf9;
+  color: white;
+  width: 160px;
+  height: 43px;
+}
+
+.your-data-img {
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 165px;
+  width: 250px;
+  height: 30px;
+}
+.your-data h1 {
+  color: black;
+  font-size: 60px;
+  position: relative;
+}
+.your-data p {
+  color: black;
+  font-size: 17px;
+  padding: 35px 0px;
+}
+.Element-data-img {
+  width: 681px;
 }
