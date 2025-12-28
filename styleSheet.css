@@ -134,6 +134,12 @@ header {
   height: 43px;
 }
 /* ----------------------------------------------------------------- */
+main {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 16px;
+}
 
 .work-mangement {
   display: flex;
@@ -388,4 +394,31 @@ header {
   color: white;
   width: 160px;
   height: 43px;
+}
+/* ------------------------------------------------------- */
+.your-work {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 16px;
+  text-align: center;
+  background-color: #043873;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+  padding: 140px;
+}
+.your-work-img {
+  position: absolute;
+}
+.your-work h1 {
+  color: #ffffff;
+  font-size: 60px;
+  position: relative;
+}
+.your-work p {
+  color: #ffffff;
+  font-size: 20px;
 }
