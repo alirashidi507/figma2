@@ -490,3 +490,33 @@ main {
   flex-direction: row;
   gap: 100px;
 }
+/* --------------------------------------------------------------------------------- */
+.Work-Apps {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  padding: 100px 40px;
+  background-color: #043873;
+}
+.img-Work-Appsapps {
+  width: 582px;
+}
+.Work-with {
+}
+.Work-with h1 {
+  color: #ffffff;
+  font-size: 75px;
+}
+.Work-with p {
+  color: #ffffff;
+  padding: 45px 0px;
+  font-size: 18px;
+}
+.button-Work-with {
+  background-color: #4f9cf9;
+  color: white;
+  width: 160px;
+  height: 43px;
+}
