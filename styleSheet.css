@@ -520,3 +520,150 @@ main {
   width: 160px;
   height: 43px;
 }
+/* --------------------------------------------------------------------------------- */
+.our-clients {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 250px;
+}
+.Clients-Says {
+  display: flex;
+  flex-direction: column;
+}
+.Clients-Says h1 {
+  position: relative;
+  color: black;
+  font-size: 75px;
+}
+.Clients-Says img {
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 470px;
+  width: 250px;
+  height: 30px;
+}
+/* ------------------------------------------------------------------------------------ */
+.Oberon-Shaw {
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+  flex-basis: 25%;
+  gap: 25px;
+  padding: 0px 30px;
+}
+.left-clients-box {
+  padding: 35px;
+}
+.Whitepate-header-orange {
+  border-bottom: 1px solid rgb(115, 113, 113);
+}
+.Whitepate-header-orange p {
+  padding: 30px 0px;
+  font-size: 20px;
+}
+.Whitepate-foter-orange {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0px;
+  gap: 50px;
+}
+.orange-gril-img img {
+  width: 100px;
+}
+.orange-gril-conte {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+}
+.orange-gril-conte h2 {
+  font-size: 22px;
+}
+.orange-gril-conte p {
+  padding: 30px 0px;
+  font-size: 20px;
+}
+/* -------------------------------------------------------------------------- */
+
+.middle-clients-box {
+  background-color: #4f9cf9;
+  border-radius: 10px;
+  padding: 35px;
+}
+.Whitepate-header-white {
+  border-bottom: 1px solid rgb(252, 251, 251);
+}
+.Whitepate-header-white p {
+  padding: 30px 0px;
+  font-size: 20px;
+}
+.Whitepate-foter-white {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0px;
+  gap: 50px;
+}
+.white-boy-img img {
+  width: 100px;
+}
+.white-boy-conte {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+}
+.white-boy-conte h2 {
+  font-size: 22px;
+}
+.white-boy-conte p {
+  padding: 30px 0px;
+  font-size: 20px;
+}
+/* ------------------------------------------------------------------ */
+
+.right-clients-box {
+  background-color: #4f9cf9;
+  border-radius: 10px;
+  padding: 35px;
+}
+.Whitepate-header-black {
+  border-bottom: 1px solid rgb(250, 249, 249);
+}
+.Whitepate-header-black p {
+  padding: 30px 0px;
+  font-size: 20px;
+}
+.Whitepate-foter-black {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0px;
+  gap: 50px;
+}
+.black-boy-img img {
+  width: 100px;
+}
+.black-boy-conte {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+}
+.black-boy-conte h2 {
+  font-size: 22px;
+}
+.black-boy-conte p {
+  padding: 30px 0px;
+  font-size: 20px;
+}
+/* --------------------------------------------------------------------------------------- */
+footer {
+  background-color: #043873;
+}
