@@ -683,8 +683,8 @@ footer {
   justify-content: center;
   align-items: center;
   gap: 60px;
-  padding: 80px;
-  margin: auto auto;
+  padding: 100px;
+  margin: 100px auto;
 }
 .footer-hader h1 {
   font-size: 90px;
@@ -695,7 +695,7 @@ footer {
 .button-footer-header {
   background-color: #4f9cf9;
   color: white;
-  width: 200px;
+  width: 150px;
   height: 43px;
 }
 .Operating-System {
@@ -711,10 +711,12 @@ footer {
 /* -------------------------------------------------------------------------------------- */
 .footer-main {
   display: flex;
-  gap: 20px;
+  gap: 120px;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1px solid #d7dede;
+  padding-bottom: 60px;
 }
 .footer-main a {
   text-decoration: none;
@@ -724,9 +726,13 @@ footer {
 .footer-whitepace {
   flex-basis: 20%;
 }
+.footer-whitepace p {
+  padding: 25px 0px;
+}
 .selecting {
   text-decoration: none;
   list-style-type: none;
+  padding: 10px 0px;
 }
 .selecting a {
   color: #ffffff;
@@ -744,7 +750,42 @@ footer {
 .footer-Company {
   flex-basis: 20%;
 }
-.footer-TryToday {
+.footer-TryToday p {
   flex-basis: 20%;
+  padding: 25px 0px;
 }
 /* -------------------------------------------------------------------------------- */
+.footer-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding-top: 40px;
+}
+.tems {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  gap: 50px;
+}
+.Language {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+}
+.Language-bar {
+  border: none;
+  background-color: #043873;
+  color: #ffffff;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  gap: 40px;
+}
