@@ -11,6 +11,7 @@
   width: 100%;
   margin: 0 auto;
   padding: 0 16px;
+  text-transform: capitalize;
 }
 .logo-wrapper {
   display: flex;
@@ -666,4 +667,84 @@ main {
 /* --------------------------------------------------------------------------------------- */
 footer {
   background-color: #043873;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 50px 30px;
 }
+* footer {
+  color: #ffffff;
+}
+.footer-hader {
+  width: 800px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  padding: 80px;
+  margin: auto auto;
+}
+.footer-hader h1 {
+  font-size: 90px;
+}
+.footer-hader p {
+  font-size: 37px;
+}
+.button-footer-header {
+  background-color: #4f9cf9;
+  color: white;
+  width: 200px;
+  height: 43px;
+}
+.Operating-System {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 75px;
+}
+.Operating {
+  width: 75px;
+}
+/* -------------------------------------------------------------------------------------- */
+.footer-main {
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-main a {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.footer-whitepace {
+  flex-basis: 20%;
+}
+.selecting {
+  text-decoration: none;
+  list-style-type: none;
+}
+.selecting a {
+  color: #ffffff;
+}
+
+.footer-Product {
+  flex-basis: 20%;
+}
+.footer-Product .gold {
+  color: #ffe492;
+}
+.footer-Resources {
+  flex-basis: 20%;
+}
+.footer-Company {
+  flex-basis: 20%;
+}
+.footer-TryToday {
+  flex-basis: 20%;
+}
+/* -------------------------------------------------------------------------------- */
